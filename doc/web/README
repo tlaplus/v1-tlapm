@@ -13,7 +13,7 @@ their direct URL, but not linked in the menus.  The menus will not
 work correctly in such files.
 
 All the HTML files must use the boilerplate given in
-content/template.html.  Except of course files that don't want
+assets/template.html.  Except of course files that don't want
 to display the menus.  Currently, only some redirection files
 (for example content/Community/TLA+_net.html) are not using the menu.
 
