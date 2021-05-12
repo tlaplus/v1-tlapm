@@ -3,12 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=http://www.tlaplus.net/" />
+      content="0; url=Documentation/Tutorial/The_example.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p>Redirecting to <a href="http://www.tlaplus.net/">www.tlaplus.net</a></p>
+
+[Redirection](Documentation/Tutorial/The_example.html)
+
 </body>
 </html>

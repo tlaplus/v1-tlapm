@@ -3,12 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=Download/Binaries.html" />
+      content="0; url=../Documentation/Unsupported_features.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p><a href="Download/Binaries.html">Redirection</a></p>
+
+Redirecting to
+[../Documentation/Unsupported\_features.html](
+    ../Documentation/Unsupported_features.html)
+
 </body>
 </html>

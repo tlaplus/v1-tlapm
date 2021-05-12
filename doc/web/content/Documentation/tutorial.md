@@ -3,12 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=http://lamport.azurewebsites.net/tla/hyperbook.html" />
+      content="0; url=Tutorial/The_example.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p><a href="http://lamport.azurewebsites.net/tla/hyperbook.html">Redirection</a></p>
+
+
+[Redirection](Tutorial/The_example.html)
+
+
 </body>
 </html>

@@ -18,38 +18,25 @@ are missing the navigation menus.</b></p><hr/></noscript>
 
 <!-- DO NOT EDIT ABOVE THIS LINE, DO NOT REMOVE THIS LINE -->
 
-<div class="section">
-  <h2>Download the TLAPS installer</h2>
-  <p class="first">The TLAPS binary installer is available for the
-  following systems:
-    <ul style="list-style-type:none;list-style:none">
-      <li>
-        <a href="Binaries/Windows.html">
-          <img class="blogo" src="Binaries/images/windows_logo_only.png"
-               alt="[Windows logo]"/>
-          Windows</a>
-      </li>
-      <li>
-        <a href="Binaries/Linux.html">
-          <img class="blogo" src="Binaries/images/logo_linux35.png"
-               alt="[Tux]"/>
-          Linux</a>
-      </li>
-      <li>
-        <a href="Binaries/MacOS.html">
-          <img class="blogo" src="Binaries/images/logo_macosx30s.png"
-               alt="[Apple logo]"/>
-          Mac OS X</a>
-      </li>
-    </ul>
-  </p>
-</div>
 
-<div class="section">
-  <h3>Sources</h3>
-  <p class="first">The <a href="Source.html">source code</a> is also
-    available.</p>
-</div>
+## Download the TLAPS installer
+
+The TLAPS binary installer is available for the following systems:
+
+[<img src="Binaries/images/windows_logo_only.png" class="blogo"
+ alt="[Windows logo]" />Windows](Binaries/Windows.html)
+
+[<img src="Binaries/images/logo_linux35.png" class="blogo" alt="[Tux]" />
+ Linux](Binaries/Linux.html)
+
+[<img src="Binaries/images/logo_macosx30s.png" class="blogo"
+ alt="[Apple logo]" />Mac OS X](Binaries/MacOS.html)
+
+
+### Sources
+
+The [source code](Source.html) is also available.
+
 
 <!-- DO NOT EDIT BELOW THIS LINE, DO NOT REMOVE THIS LINE -->
 

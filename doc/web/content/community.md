@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=../Documentation/Unsupported_features.html" />
+      content="0; url=Community/Contact.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p>Redirecting to <a href="../Documentation/Unsupported_features.html">
-    ../Documentation/Unsupported_features.html</a></p>
+
+[Redirection](Community/Contact.html)
+
 </body>
 </html>

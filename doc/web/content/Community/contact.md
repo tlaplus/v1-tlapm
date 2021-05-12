@@ -16,31 +16,28 @@
 
 <!-- DO NOT EDIT ABOVE THIS LINE, DO NOT REMOVE THIS LINE -->
 
-<div class="section">
 
-  <h2 class="white">Contact</h2>
-  <h2>Questions</h2>
-  <div class="hr"></div>
+## Questions
+<div class="hr"></div>
 
-  <p> Users are encouraged to use the
-    <a href="https://groups.google.com/forum/#!forum/tlaplus">TLA+
-      users</a> google group / mailing list to discuss the system.</p>
+Users are encouraged to use the [TLA+ users](
+    https://groups.google.com/forum/#!forum/tlaplus)
+google group / mailing list to discuss the system.
 
-  <h2>Bugs</h2>
-  <div class="hr"></div>
 
-  <p> A
-    <a href="https://github.com/tlaplus/tlapm/issues">public
-      bug-tracker</a> is available
-      on <a href="https://github.com">GitHub</a>.</p>
+## Bugs
+<div class="hr"></div>
 
-  <h2>Webmaster</h2>
-  <div class="hr"></div>
+A [public bug-tracker](https://github.com/tlaplus/tlapm/issues) is
+available on [GitHub](https://github.com).
 
-  <p> For comments or suggestions about this web site, please contact
-  the <a href="mailto:damien.doligez@NOSPAM@inria.fr">webmaster</a>.</p>
 
-</div>
+## Webmaster
+<div class="hr"></div>
+
+For comments or suggestions about this web site, please contact the
+[webmaster](mailto:damien.doligez@NOSPAM@inria.fr).
+
 
 <!-- DO NOT EDIT BELOW THIS LINE, DO NOT REMOVE THIS LINE -->
 

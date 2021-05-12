@@ -7,8 +7,11 @@
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p><a href="http://lamport.azurewebsites.net/video/videos.html">Redirection</a></p>
+
+
+[Redirection](http://lamport.azurewebsites.net/video/videos.html)
+
+
 </body>
 </html>

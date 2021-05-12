@@ -16,53 +16,52 @@
 
 <!-- DO NOT EDIT ABOVE THIS LINE, DO NOT REMOVE THIS LINE -->
 
-<div class="section">
-  <h2> Licence for the TLA+ Proof System (TLAPS) </h2>
-  <p style="font-weight:bold"> Copyright &copy; 2008&ndash;2020
-    <a href="http://www.inria.fr">Inria</a>
-    and <a href="http://www.microsoft.com">Microsoft
-      Corporation</a><br/>All rights reserved.</p>
 
-  <h3>TERMS AND CONDITIONS</h3>
+## Licence for the TLA+ Proof System (TLAPS)
 
-  <p>Redistribution and use in source and binary forms, with or
-  without modification, are permitted provided that the following
-  conditions are met:</p>
+**Copyright © 2008–2020 [Inria](http://www.inria.fr) and [Microsoft Corporation](
+    http://www.microsoft.com)<br/>
+All rights reserved.**
 
-  <ul>
-    <li>Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.</li>
-    <li>Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials provided
-      with the distribution.</li>
-  </ul>
 
-  <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
-  CONTRIBUTORS &ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED
-  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-  BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+### TERMS AND CONDITIONS
 
-  <h3>CHOICE OF LAW</h3>
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
 
-  <p>This license is governed by the Laws of France.</p>
+- Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
 
-  <h2> Licences for embedded software </h2>
-  <p>The TLAPS installer contains parts of the Isabelle distribution,
-  parts of the Z3 distribution, and parts of the LS4 distribution,
-  for which the following licences apply.
-  Note that Isabelle itself contains other software, distributed under
-  their own licences.</p>
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS
+IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  <pre>
+
+### CHOICE OF LAW
+
+This license is governed by the Laws of France.
+
+
+## Licences for embedded software
+
+The TLAPS installer contains parts of the Isabelle distribution, parts
+of the Z3 distribution, and parts of the LS4 distribution, for which the
+following licences apply. Note that Isabelle itself contains other
+software, distributed under their own licences.
+
+```
 ---------------------------------------------------------------
 
 ISABELLE COPYRIGHT NOTICE, LICENCE AND DISCLAIMER.
@@ -106,7 +105,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Z3
 Copyright (c) Microsoft Corporation
-All rights reserved. 
+All rights reserved.
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -162,9 +161,8 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------------------------------------
-</pre>
+```
 
-</div>
 
 <!-- DO NOT EDIT BELOW THIS LINE, DO NOT REMOVE THIS LINE -->
 

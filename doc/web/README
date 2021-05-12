@@ -19,3 +19,9 @@ to display the menus.  Currently, only some redirection files
 
 The actual contents of the files is just HTML.  It may use the site's
 CSS elements (the <div> stuff), but that is not mandatory.
+
+Pages can be written in Markdown, with the HTML header and footer from
+assets/template.html. The conversion from Markdown to HTML is done using
+pandoc. The Makefile contains a rule for invoking pandoc on the Markdown
+sources. For any new Markdown file of a web page, a line needs to be added
+to the Makefile.

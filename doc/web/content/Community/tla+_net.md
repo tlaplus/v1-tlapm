@@ -3,12 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=Community/Contact.html" />
+      content="0; url=http://www.tlaplus.net/" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
-
 <body>
-<p><a href="Community/Contact.html">Redirection</a></p>
+
+Redirecting to [www.tlaplus.net](http://www.tlaplus.net/)
+
 </body>
 </html>
