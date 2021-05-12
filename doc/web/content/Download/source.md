@@ -200,6 +200,17 @@ at the end stating that all obligations were proved. For more information on how
 to use TLAPS, read the [tutorial](../Documentation/Tutorial.html).
 
 
+### 8. Update paths
+
+The environment variable `PATH` may need to be updated, depending on the
+operating system and where `tlapm` has been installed.
+
+Note that for calling `tlapm` from a Windows environment when it has been
+installed inside Cygwin, the Windows environment path needs to be updated too.
+For more details on that, see the section on setting the Windows path in
+the page about [Windows installation](Binaries/Windows.html).
+
+
 <!-- DO NOT EDIT BELOW THIS LINE, DO NOT REMOVE THIS LINE -->
 
 <script type="text/javascript">

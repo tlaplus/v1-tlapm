@@ -67,7 +67,34 @@ to the list of library path locations. If you have the default installation,
 this directory is `C:\cygwin\usr\local\lib\tlaps\`.
 
 
-### 5. Install CVC4 (optional)
+### 5. Set the Windows path
+
+If TLAPM will be called from a Windows [environment](
+    https://en.wikipedia.org/wiki/Run-time_environment)
+(instead of a Cygwin environment), then certain directories need to
+be added to the Windows [`PATH` environment variable](
+    https://en.wikipedia.org/wiki/PATH_(variable)).
+If you have the default installation, then these directories are:
+
+- `C:\cygwin\usr\local\bin`
+- `C:\cygwin\usr\bin`
+- `C:\cygwin\bin`
+
+Relevant information about setting the path can be found in the
+[Cygwin documentation about paths](https://cygwin.com/faq.html#faq.using.path),
+and the [Cygwin documentation about environment variables](
+    https://cygwin.com/cygwin-ug-net/setup-env.html).
+Within Cygwin, the previous paths are:
+
+- `/usr/local/bin`
+- `/usr/bin`
+- `/bin`
+
+The [tool `cygpath`](https://cygwin.com/cygwin-ug-net/cygpath.html)
+may be useful for converting between path formats.
+
+
+### 6. Install CVC4 (optional)
 
 You may want to install CVC4 to use as an additional SMT back-end for TLAPS (the
 default, Z3, is included in the installer). Note that some of our example files
