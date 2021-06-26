@@ -23,5 +23,16 @@ CSS elements (the <div> stuff), but that is not mandatory.
 Pages can be written in Markdown, with the HTML header and footer from
 assets/template.html. The conversion from Markdown to HTML is done using
 pandoc. The Makefile contains a rule for invoking pandoc on the Markdown
-sources. For any new Markdown file of a web page, a line needs to be added
-to the Makefile.
+sources.
+
+The Makefile invokes the script generate_html.py, which contains a list of
+Markdown files, and for each file in that list, it reads the file,
+appends an HTML header and an HTML footer, passes the result to pandoc for
+conversion to HTML, and writes the resulting HTML to an HTML file.
+
+The path of each HTML file created by generate_html.py is obtained from
+the path of the corresponding Markdown file by replacing the extension
+".md" with the extension ".html".
+
+For any new Markdown file of a web page, a line needs to be added
+to the list in the script generate_html.py.

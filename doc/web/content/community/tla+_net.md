@@ -10,6 +10,3 @@
 <body>
 
 Redirecting to [www.tlaplus.net](http://www.tlaplus.net/)
-
-</body>
-</html>

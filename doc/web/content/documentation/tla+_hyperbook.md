@@ -10,6 +10,3 @@
 <body>
 
 [Redirection](http://lamport.azurewebsites.net/tla/hyperbook.html)
-
-</body>
-</html>

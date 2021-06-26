@@ -11,7 +11,3 @@
 
 
 [Redirection](http://lamport.azurewebsites.net/video/videos.html)
-
-
-</body>
-</html>

@@ -12,6 +12,3 @@
 Redirecting to
 [../documentation/unsupported\_features.html](
     ../documentation/unsupported_features.html)
-
-</body>
-</html>

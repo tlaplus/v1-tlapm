@@ -10,6 +10,3 @@
 <body>
 
 [Redirection](documentation/tutorial/the_example.html)
-
-</body>
-</html>

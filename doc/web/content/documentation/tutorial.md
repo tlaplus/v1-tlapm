@@ -11,7 +11,3 @@
 
 
 [Redirection](tutorial/the_example.html)
-
-
-</body>
-</html>

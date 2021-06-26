@@ -10,6 +10,3 @@
 <body>
 
 [Redirection](download/binaries.html)
-
-</body>
-</html>

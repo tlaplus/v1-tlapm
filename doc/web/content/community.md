@@ -10,6 +10,3 @@
 <body>
 
 [Redirection](community/contact.html)
-
-</body>
-</html>
