@@ -97,7 +97,7 @@ obtained by removing the `-` from `uid-tlapshomepage`".
 
 <script type="text/javascript">
   document.write ('\x3Cscript type="text/javascript" src="'
-                  + baseurl + 'assets/footer.js">\x3C\/script>')
+                  + baseurl + 'assets/footer.js">\x3C/script>')
 </script>
 </body>
 </html>
