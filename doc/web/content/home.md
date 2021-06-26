@@ -13,8 +13,6 @@
   document.write ('\x3Cscript type="text/javascript" src="'
                   + baseurl + 'assets/header.js">\x3C/script>')
 </script>
-<noscript><p><b>Warning: This site uses JavaScript. Without JavaScript, you
-are missing the navigation menus.</b></p><hr/></noscript>
 
 <!-- DO NOT EDIT ABOVE THIS LINE, DO NOT REMOVE THIS LINE -->
 
