@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" id="ss"/>
 <title>TLA+ Proof System</title>
 </head>
-<body onload="tla_display()">
+<body>
 <script type="text/javascript">
   var baseurl = (document.URL.match (/.*[\\\/]content[\\\/]/))[0]
   baseurl = baseurl.slice (0, baseurl.length - "content/".length)
