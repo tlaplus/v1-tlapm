@@ -1,7 +1,8 @@
 // The menu hierarchy.
 // Spaces at the beginning of the strings give the nesting level.
 // The corresponding file/directory names are the same with prefixed spaces
-// removed, all special characters replaced by underscores, and ".html"
+// removed, all special characters replaced by underscores,
+// all characters converted to lowercase, and ".html"
 // added at the end of file names (but not directories).
 
 // Special characters are all characters except letters, digits, "-", and "+"
@@ -63,7 +64,7 @@ for (i = 1; i < path.length; i++){
 
 // Return the file name associated with a given title.
 function file (title) {
-    return title.replace (/[^-a-zA-Z0-9+]/g, "_");
+    return title.replace (/[^-a-zA-Z0-9+]/g, "_").toLowerCase();
 }
 
 // Return the number of spaces at the beginning of s.
@@ -98,7 +99,7 @@ function findbranch (i, lvl){
         if (l < lvl) return i
         if (l == lvl){
             branch[lvl].push (getdata (menumap [i]))
-            if (getdata (menumap [i]) == path [lvl]){
+            if (getdata (menumap [i]).toLowerCase() == path [lvl]){
                 i = findbranch (i + 1, lvl + 1)
             }else{
                 i ++
@@ -129,7 +130,7 @@ function addmenu () {
   w('  <div id="header">')
   w('    <div id="title">')
   w('      <a class="title" href="' + base
-    + 'Home.html">TLA+ Proof System</a>')
+    + 'home.html">TLA+ Proof System</a>')
   w('    </div>')
   w('    <div class="logomsr">')
   w('      <a href="http://www.msr-inria.inria.fr">')

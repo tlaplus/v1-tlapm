@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=Documentation/Tutorial/The_example.html" />
+      content="0; url=documentation/tutorial/the_example.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
 <body>
 
-[Redirection](Documentation/Tutorial/The_example.html)
+[Redirection](documentation/tutorial/the_example.html)
 
 </body>
 </html>

@@ -56,7 +56,7 @@ the usual command when the cursor is outside any theorem or its proof.
 ### Prover options
 <div class="hr"></div>
 
-If you don't use [tactics](Tactics.html), the default behaviour of TLAPS
+If you don't use [tactics](tactics.html), the default behaviour of TLAPS
 is to send obligations to Z3, then to Zenon, then to Isabelle, stopping
 when one of them succeeds. You can change this behavior, by clicking on
 "Launch Prover" when right-clicking on a proof-step:
@@ -105,7 +105,7 @@ useful options are the following:
   | cvc4  | CVC4                                |
 
 - `--solver` *line* : change the baseline SMT solver. See
-  [Tactics](Tactics.html#solvers) for instructions on using this option.
+  [Tactics](tactics.html#solvers) for instructions on using this option.
 -   `--fast-isabelle` : on Windows, invoke Isabelle via a short-cut that
   saves a few seconds from Isabelle's start-up time. On other
   architectures, this option does nothing.

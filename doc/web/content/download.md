@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=Download/Binaries.html" />
+      content="0; url=download/binaries.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
 <body>
 
-[Redirection](Download/Binaries.html)
+[Redirection](download/binaries.html)
 
 </body>
 </html>

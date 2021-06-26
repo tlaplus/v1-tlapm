@@ -79,7 +79,7 @@ that obligation and reports failures of three backends, Zenon, Isabelle,
 and SMT. The default behavior of TLAPS is to send obligations first to
 an SMT solver (by default Z3), then if that fails to the automatic
 prover Zenon, then if Zenon fails to Isabelle (with the tactic "auto").
-See the [tactics section](Tactics.html) to learn more about this
+See the [tactics section](tactics.html) to learn more about this
 process.
 
 <div class="bg">

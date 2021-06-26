@@ -10,7 +10,7 @@
 <body>
 
 
-[Redirection](Tutorial/The_example.html)
+[Redirection](tutorial/the_example.html)
 
 
 </body>

@@ -23,19 +23,19 @@ are missing the navigation menus.</b></p><hr/></noscript>
 
 The TLAPS binary installer is available for the following systems:
 
-[<img src="Binaries/images/windows_logo_only.png" class="blogo"
+[<img src="binaries/images/windows_logo_only.png" class="blogo"
  alt="[Windows logo]" />Windows](Binaries/Windows.html)
 
-[<img src="Binaries/images/logo_linux35.png" class="blogo" alt="[Tux]" />
+[<img src="binaries/images/logo_linux35.png" class="blogo" alt="[Tux]" />
  Linux](Binaries/Linux.html)
 
-[<img src="Binaries/images/logo_macosx30s.png" class="blogo"
+[<img src="binaries/images/logo_macosx30s.png" class="blogo"
  alt="[Apple logo]" />Mac OS X](Binaries/MacOS.html)
 
 
 ### Sources
 
-The [source code](Source.html) is also available.
+The [source code](source.html) is also available.
 
 
 <!-- DO NOT EDIT BELOW THIS LINE, DO NOT REMOVE THIS LINE -->

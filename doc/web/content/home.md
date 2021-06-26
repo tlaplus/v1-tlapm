@@ -34,7 +34,7 @@ the various “backend” verifiers.
 
 The current release of TLAPS does not perform temporal reasoning, and it
 does not handle some features of TLA+. See the list of currently
-[unsupported TLA+ features](Download/Unsupported.html). An extension to
+[unsupported TLA+ features](download/unsupported.html). An extension to
 the full TLA+ language is under active development. However, TLAPS is
 now suitable for verifying safety properties of non-trivial algorithms.
 (Only trivial temporal-logic reasoning that is easily checked by hand is
@@ -53,20 +53,20 @@ the [Toolbox IDE](
     http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html).
 TLAPS is free software, distributed under the BSD [license](
     Download/License.html).
-You can obtain it in the [download section](Download.html).
+You can obtain it in the [download section](download.html).
 
 
 ### Documents
 <div class="hr"></div>
 
-New users should read the [tutorial](Documentation/Tutorial.html). The
+New users should read the [tutorial](documentation/tutorial.html). The
 [TLA+ hyperbook](
     http://research.microsoft.com/en-us/um/people/lamport/tla/hyperbook.html)
 has a more in-depth tutorial of TLA+ and associated tools. The complete
 specification of the proof language is contained in the
 [TLA+2 Preliminary Guide](
     http://research.microsoft.com/en-us/um/people/lamport/tla/tla2-guide.pdf).
-You can also look at [academic publications](Documentation/Publications.html).
+You can also look at [academic publications](documentation/publications.html).
 
 
 ### Community

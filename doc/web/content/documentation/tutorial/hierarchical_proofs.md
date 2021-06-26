@@ -41,12 +41,12 @@ Some of the facts and definitions in the context are marked as *usable*
 for reasoning, while the remaining facts and definitions are *hidden*.
 That obligation is then sent to a backend ([Zenon](http://zenon-prover.org),
 [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/), SMT solvers
-– see the [tactics section](Tactics.html)) that tries to prove it. The
+– see the [tactics section](tactics.html)) that tries to prove it. The
 smaller the context is, the faster those backends are. Hence TLAPS tries
 to keep that context as small as possible. For example, the axioms about
 GCD stated above are not directly usable by the backends: they are *known*
 but *not usable*. As we have seen in the
-[simple proof section](A_simple_proof.html), you have to explicitly USE
+[simple proof section](a_simple_proof.html), you have to explicitly USE
 or *cite* a fact in order for it to be included in the context of the
 obligation sent to backends. As an exception to this rule, *domain facts*
 of the form `x \in S` are always usable in a proof. (Such
@@ -79,7 +79,7 @@ This step asserts that it is sufficient to prove `InductiveInvariant'`
 while assuming `InductiveInvariant` and `Next`. Because the step is unnamed,
 both facts `InductiveInvariant` and `Next` are also made usable for the
 remainder of the proof. For more information about `SUFFICES`, see the
-section about [other proof constructs](Other_proof_constructs.html).
+section about [other proof constructs](other_proof_constructs.html).
 
 
 ### USE

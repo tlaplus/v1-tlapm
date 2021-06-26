@@ -5,8 +5,8 @@ It cannot be more than 3 levels deep (content/, its subdirectories, and
 its subsubdirectories).
 
 The directory names are the same as the corresponding menu names,
-where every character is replaced by _, except for letters,
-digits, plus (+) and dash (-).
+where every character is replaced by _, except for digits,
+plus (+), dash (-), and letters which are converted to lowercase.
 
 There may be extra files and directories, they will be reachable by
 their direct URL, but not linked in the menus.  The menus will not

@@ -197,7 +197,7 @@ $ tlapm -C -I +examples/cantor Cantor1.tla
 
 You will see a lot of output from Isabelle, the most important being the message
 at the end stating that all obligations were proved. For more information on how
-to use TLAPS, read the [tutorial](../Documentation/Tutorial.html).
+to use TLAPS, read the [tutorial](../documentation/tutorial.html).
 
 
 ### 8. Update paths

@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="refresh"
-      content="0; url=Community/Contact.html" />
+      content="0; url=community/contact.html" />
 <title>Redirection</title>
 <meta name="robots" content="noindex,follow" />
 </head>
 <body>
 
-[Redirection](Community/Contact.html)
+[Redirection](community/contact.html)
 
 </body>
 </html>
