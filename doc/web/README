@@ -36,3 +36,7 @@ the path of the corresponding Markdown file by replacing the extension
 
 For any new Markdown file of a web page, a line needs to be added
 to the list in the script generate_html.py.
+
+In addition, the Makefile copies certain files from the directory ../doc/
+to the directory content/ before starting the conversion to HTML.
+The reason is to incorporate the documentation into the website.

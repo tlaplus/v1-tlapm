@@ -6,9 +6,15 @@
 
 # convert each Markdown source file to an HTML file for the website
 html_from_md:
+	cp ../doc/unsupported_features.md content/documentation/
+	cp -R ../doc/tutorial content/documentation/
 	python generate_html.py
 
 clean:
+	# documentation files
+	-rm -f content/documentation/unsupported_features.md
+	rm -rf content/documentation/tutorial
+	# HTML files
 	# `content/`
 	-rm -f \
 		content/community.html \

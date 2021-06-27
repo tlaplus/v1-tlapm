@@ -1,1 +1,5 @@
 *.html
+
+# files copied from the documentation at `../doc/`
+content/documentation/unsupported_features.md
+content/documentation/tutorial/
