@@ -35,13 +35,22 @@ BEGIN {
   check_command = "";
   failed = 0;
   stretch = ENVIRON["STRETCH"];
+  submodule_nesting_depth = 0;
 }
 
 # remove trailing CR from input line
 { sub (/\r$/, ""); }
 
+phase == 0 && /^----[-]*[ ]*MODULE/ {
+  submodule_nesting_depth++;
+  next;
+}
+
 phase == 0 && /^====/ {
-  phase = 1;
+  submodule_nesting_depth--;
+  if (submodule_nesting_depth == 0){
+    phase = 1;
+  }
   next;
 }
 

@@ -40,6 +40,7 @@ let external_deps m =
         let m = subm.core in
         locals := Hs.add m.name !locals ;
         submodules := Sm.add m.name.core subm !submodules;
+        List.iter (fun s -> deps := Hs.add s !deps) subm.core.extendees;
         List.iter visit m.body
     | Anoninst (ins, _) ->
         ignore (mapper#defn ((), Deque.empty)

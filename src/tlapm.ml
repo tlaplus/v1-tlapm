@@ -468,6 +468,10 @@ let read_new_modules mcx fs =
       (mcx, mule :: mods)
   end (mcx, []) fs
 
+let print_modules mcx =
+    print_string "\nModules loaded so far:\n";
+    Sm.iter (fun name mule -> Printf.printf "Module name: \"%s\"\n" name) mcx
+
 let main fs =
   Params.input_files := List.map Filename.basename fs;
   let () =
@@ -484,6 +488,7 @@ let main fs =
   Submodules are read below.
   *)
   let (mcx, mods) = read_new_modules mcx fs in
+  (* print_modules mcx; *)
   if List.length mods = 0 then begin
     Util.eprintf ~prefix:"FATAL: " "could not read any modules successfully!" ;
     failwith "fatal error: could not read any modules";

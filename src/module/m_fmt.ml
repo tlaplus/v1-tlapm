@@ -45,7 +45,7 @@ let rec pp_print_modunit ?(force=false) cx ff mu = match mu.core with
   | Variables vs ->
       let (ncx, vs) = adjs cx vs in
       fprintf ff "@[<b2>VARIABLE%s@ %a@]@,"
-        (if vs = [] then "" else "S")
+        (if ((List.length vs) = 1) then "" else "S")
         (pp_print_delimited pp_print_string) vs ;
       ncx
   | Definition (df, wd, _, ex) ->
