@@ -628,6 +628,22 @@ let () =
   end;
   printf "to the toolbox's library path \\
           (File->Preferences->TLA+ Preferences->Add Directory)\\n\\n";
+  begin match Sys.os_type with
+  | "Cygwin" ->
+    printf ("If you want to call tlapm from a Windows environment " ^
+        "(instead of Cygwin), then you also need to add to the Windows PATH " ^
+        "environment variable the following paths:\\n");
+    let p = path [ !output_dir ; "bin" ] in
+    let cmd = sprintf "cygpath -d %s\\n" (Filename.quote p) in
+    ignore (Sys.command cmd);
+    let p = path [ "usr" ; "bin" ] in
+    let cmd = sprintf "cygpath -d %s\\n" (Filename.quote p) in
+    ignore (Sys.command cmd);
+    let p = path [ "bin" ] in
+    let cmd = sprintf "cygpath -d %s\\n" (Filename.quote p) in
+    ignore (Sys.command cmd);
+  | _ -> ()
+  end;
   flush_all ()
 
 EOF

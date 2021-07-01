@@ -5,17 +5,38 @@ It cannot be more than 3 levels deep (content/, its subdirectories, and
 its subsubdirectories).
 
 The directory names are the same as the corresponding menu names,
-where every character is replaced by _, except for letters,
-digits, plus (+) and dash (-).
+where every character is replaced by _, except for digits,
+plus (+), dash (-), and letters which are converted to lowercase.
 
 There may be extra files and directories, they will be reachable by
 their direct URL, but not linked in the menus.  The menus will not
 work correctly in such files.
 
 All the HTML files must use the boilerplate given in
-content/template.html.  Except of course files that don't want
+assets/template.html.  Except of course files that don't want
 to display the menus.  Currently, only some redirection files
 (for example content/Community/TLA+_net.html) are not using the menu.
 
 The actual contents of the files is just HTML.  It may use the site's
 CSS elements (the <div> stuff), but that is not mandatory.
+
+Pages can be written in Markdown, with the HTML header and footer from
+assets/template.html. The conversion from Markdown to HTML is done using
+pandoc. The Makefile contains a rule for invoking pandoc on the Markdown
+sources.
+
+The Makefile invokes the script generate_html.py, which contains a list of
+Markdown files, and for each file in that list, it reads the file,
+appends an HTML header and an HTML footer, passes the result to pandoc for
+conversion to HTML, and writes the resulting HTML to an HTML file.
+
+The path of each HTML file created by generate_html.py is obtained from
+the path of the corresponding Markdown file by replacing the extension
+".md" with the extension ".html".
+
+For any new Markdown file of a web page, a line needs to be added
+to the list in the script generate_html.py.
+
+In addition, the Makefile copies certain files from the directory ../doc/
+to the directory content/ before starting the conversion to HTML.
+The reason is to incorporate the documentation into the website.
